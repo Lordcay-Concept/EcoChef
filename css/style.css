@@ -1,0 +1,472 @@
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-toggler-icon {
+    background-color:gray; 
+}
+
+@media (max-width: 991px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        margin-left: auto; 
+    }
+
+    .navbar-toggler {
+        order: 2; 
+    }
+
+    .btn.custom-orange {
+        order: 1; 
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-right: 0; 
+    }
+    
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .btn.custom-orange {
+        margin-left: 10px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-img-size {
+        width: 80%; 
+    }
+}
+
+.custom-orange {
+    background-color: #ce1212;  
+    border-color: #ce1212;      
+
+}
+
+.custom-orange:hover {
+    background-color: rgba(206, 18, 18, 0.8); 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(177, 175, 175, 0.2); 
+    transition: all 0.3s ease; 
+    border-color: #ce1212;
+}
+
+
+.nav-link {
+    position: relative; 
+    display: inline-block; 
+}
+.nav-link:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ce1212;
+    transition: text-decoration-color 0.3s ease;  
+}
+
+.fanciful-font {
+        font-family: "Amatic SC", serif;
+        font-weight: 700;
+        font-style:bold;
+        font-size: 4rem;
+        color: #333;
+      }
+      
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-img-size {
+    width: 40%; 
+    height: auto;
+}
+
+.hero-section {
+    padding-top: 100px;
+    margin-top: 50px;  
+}
+
+
+@keyframes shakeUpAndDown {
+    0% {
+        transform: translateY(0); 
+    }
+    25% {
+        transform: translateY(-10px); 
+    }
+    50% {
+        transform: translateY(0); 
+    }
+    75% {
+        transform: translateY(10px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.custom-img-shake {
+    animation: shakeUpAndDown 5s ease-in-out infinite; 
+}
+
+.strange{
+    font-family: "Amatic SC", serif;
+    font-size: 3rem;
+    font-weight: light;
+    font-style: normal;
+    color: #ce1212; 
+}
+
+.virgin{
+    font-family: "Amatic SC", serif;
+    font-size: 3rem; 
+    font-weight: light;
+    font-style: normal;
+    color: #333;
+}
+
+.custom-icon {
+    color: #ce1212; 
+    font-size: 1.5rem;
+    text-decoration-color: #ce1212;
+}
+
+.image-fluid {
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.row.align-items-center {
+    display: flex;
+    align-items: stretch; 
+}
+
+
+.col-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.custom-red-bg {
+        background-color: #ce1212; 
+    }
+
+#choose .card{
+    min-height: 300px;
+}
+
+.custom-orange-learn {
+    background-color: rgba(109, 76, 76, 0.1);
+    color: white; 
+    border: 2px solid #ce1212; 
+    transition: all 0.3s ease; 
+}
+
+.custom-orange-learn:hover {
+    background-color: white; 
+    color: #ce1212; 
+    border: 2px solid #ce1212; 
+}
+
+#choose .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-icon-circle {
+    background-color: rgba(206, 18, 18, 0.1); 
+    color: #ce1212; 
+    border-radius: 50%;
+    padding: 20px; 
+    width: 60px; 
+    height: 60px; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: all 0.3s ease; 
+    font-size: 2rem; 
+}
+
+.card-body:hover .custom-icon-circle {
+    background-color: #ce1212; 
+    color: white; 
+}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.menu-img {
+    width: 60%; 
+    max-width: 250px; 
+    height: auto; 
+}
+
+.menu-link {
+    font-size: 1.5rem;  
+    text-decoration: underline;  
+    text-decoration-color: rgba(0, 0, 0, 0.2); 
+    text-underline-offset: 10px;  
+    transition: text-decoration-color 0.3s ease; 
+    border: none;
+    box-shadow: none;
+}
+
+.menu-link:hover {
+    text-decoration-color: #ce1212;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+#menu-breakfast {
+    color: #ce1212;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #ce1212;
+    font-weight: 500;
+}
+
+.ingredients {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.chef {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.chef-span {
+    color: #ce1212;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.chef-img {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    display: none; 
+    transform: translate(0, 10px); 
+}
+
+.chef-img:hover .social {
+    display: block; 
+}
+
+.social a {
+    color: white; 
+    font-size: 2rem;
+    margin: 10px 0; 
+    transition: color 0.3s ease; 
+    display: block; 
+}
+
+.social a:hover {
+    color: #f8b400;
+}
+
+.col-lg-4:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.col-lg-4 {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); 
+}
+
+.chef-member {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.behave {
+    transition: none !important; 
+    box-shadow: none !important; 
+    transform: none !important; 
+}
+
+.behave:hover {
+    transform: none !important; 
+    box-shadow: none !important; 
+}
+
+.col-lg-8 {
+    max-width: 70%;
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.php-email-form .form-control {
+    font-size: 0.9rem; 
+    padding: 10px; 
+}
+
+.custom-icons-circle {
+    width: 50px;           
+    height: 50px;          
+    border-radius: 50%;    
+    background-color: #ce1212;
+    color: white;        
+    font-size: 24px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;    
+}
+
+.php-email-form .form-control {
+    padding: 10px; 
+  }
+
+  .php-email-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .container {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+iframe {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 767px) {
+    iframe {
+        height: 300px; 
+    }
+
+    .row.g-4 {
+        display: block; 
+    }
+
+    .col-12 {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .row.g-4 {
+        display: flex; 
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        flex: 0 0 50%; 
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.footer {
+    color: #ce1212;
+    font-size: 24px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem; 
+    transition: color 0.3s ease, border-color 0.3s ease;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6); 
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ce1212;
+    border-color: #ce1212; 
+}
+
+.address h6, .ms-3 h6 {
+    font-size: 0.9rem;
+}
+
+.address p, .ms-3 p {
+    font-size: 0.8rem; 
+}
+
+.social-links h6 {
+    font-size: 0.9rem;
+}
+
+.custom-bg-black {
+    background-color: black;
+}
+
+.scroll-top {
+    position: fixed; 
+    bottom: 20px;  
+    right: 20px;   
+    width: 40px;   
+    height: 40px;    
+    background-color: #ce1212;
+    color: white;   
+    border-radius: 50%; 
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem; 
+    text-decoration: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+}
+
+.scroll-top:hover {
+    background-color: #ce1212; 
+    color: white; 
+}
+
+.scroll-top i {
+    font-size: 1.2rem; 
+}
+
